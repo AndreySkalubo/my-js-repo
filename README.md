@@ -21,7 +21,10 @@ Katas & Leets
 <img width="1842" height="864" alt="Kata1" src="https://github.com/user-attachments/assets/23ea587b-a360-407a-afa3-19731c24e1c4" />
 HW4
 Katas & Leets
+<img width="1904" height="916" alt="Leet5" src="https://github.com/user-attachments/assets/f289fbe9-beab-476e-9660-684db0c05f4e" />
 <img width="1896" height="889" alt="Leet4" src="https://github.com/user-attachments/assets/bf286585-b68d-445e-9d40-17bcc24d5a86" />
+<img width="1901" height="914" alt="Leet3" src="https://github.com/user-attachments/assets/db4f0bc8-284d-4d55-9a77-83cc7e814a72" />
+<img width="1897" height="911" alt="Leet2" src="https://github.com/user-attachments/assets/e8709c16-e85f-4fc7-9318-f58807e4c214" />
 <img width="1893" height="873" alt="Leet1" src="https://github.com/user-attachments/assets/31475420-3ca5-4009-adc1-2872be78d688" />
 <img width="1833" height="868" alt="Kata27" src="https://github.com/user-attachments/assets/aa629bbc-bab7-4527-8bb2-33d4c9d032df" />
 <img width="1843" height="877" alt="Kata26" src="https://github.com/user-attachments/assets/8d89c730-3f15-4081-a450-396688683604" />
@@ -37,6 +40,7 @@ Katas & Leets
 <img width="1829" height="872" alt="Kata16" src="https://github.com/user-attachments/assets/504b184d-e329-4a65-9325-2fa6ec3cde1d" />
 <img width="1845" height="881" alt="Kata15" src="https://github.com/user-attachments/assets/6ddecd53-a4eb-48c0-abc0-775f297501e9" />
 <img width="1846" height="876" alt="Kata14" src="https://github.com/user-attachments/assets/5ea1a027-7fbe-4fd3-954d-6fe0e6562cf1" />
+<img width="1849" height="868" alt="Kata13" src="https://github.com/user-attachments/assets/7eb80e34-ecd1-4449-9c7e-fa149d31a090" />
 <img width="1835" height="873" alt="Kata12" src="https://github.com/user-attachments/assets/654e218d-47e3-4450-be5a-a6957c74b24a" />
 <img width="1846" height="872" alt="Kata11" src="https://github.com/user-attachments/assets/852819e3-c403-405d-a533-d3f6553a1f13" />
 <img width="1852" height="883" alt="Kata10" src="https://github.com/user-attachments/assets/21d4a00f-1bed-43b3-a446-28672042e1d5" />
