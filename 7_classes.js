@@ -20,7 +20,7 @@
             this._sideLength = sideLength
         }
         calcPerimeter() {
-            console.log(this.sides * this.sideLength)
+            console.log(this._sides * this._sideLength)
         }
     }
     const square = new Shape("Square", 4, 5)
@@ -108,7 +108,38 @@
             this._firstLine = firstLine
         }
     }
-    const library = [
+    class Library {
+        _library
+        get library() { return this._library }
+        set library(value) { this._library = value }
+        constructor(library) {
+            this._library = library
+        }
+        logByName() {
+            this._library.forEach(el => el.books.forEach(nestedEl => console.log(nestedEl.name)))
+        }
+        logByPopularity() {
+            this._library.forEach(el => console.log(
+                el.books.reduce((prevEl, nestedEl) => {
+                    if (prevEl.popularity < nestedEl.popularity) {
+                        return nestedEl
+                    } else {
+                        return prevEl
+                    }
+                }).name))
+        }
+        sortByYear() {
+            this._library.forEach(el =>
+                el.books.sort((a, b) =>
+                    a.releaseYear - b.releaseYear
+                ))
+            this._library.sort((a, b) => a.books[0].releaseYear - b.books[0].releaseYear)
+        }
+        logReleaseYear() {
+            this._library.forEach(el => el.books.forEach(nestedEl => console.log(nestedEl.releaseYear)))
+        }
+    }
+    const authors = [
         new Author("Стивен Кинг", [
             new Book(
                 9785170942472,
@@ -251,18 +282,9 @@
             )
         ])
     ]
-    library.forEach(el => el.books.forEach(nestedEl => console.log(nestedEl.name)))
-    library.forEach(el => console.log(
-        el.books.reduce((prevEl, nestedEl) => {
-            if (prevEl.popularity < nestedEl.popularity) {
-                return nestedEl
-            } else {
-                return prevEl
-            }
-        }).name))
-    library.forEach(el =>
-        el.books.sort((a, b) =>
-            a.releaseYear - b.releaseYear
-        ))
-    library.sort((a, b) => a.books[0].releaseYear - b.books[0].releaseYear)
+    const library = new Library(authors)
+    library.logByName()
+    library.logByPopularity()
+    library.sortByYear()
+    library.logReleaseYear()
 }
